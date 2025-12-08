@@ -4,7 +4,7 @@ HSI reports for various platforms that haven't yet been listed on https://fwupd.
 
 ### Disclaimer
 
-This is a community effort and not an official list. I'm not endorsed by any of the listed vendors or the Linux Vendor Firmware Service Project. All of the information on this site is presented as is and should not be the basis of any purchase decision. If you need definite information on hardware security features **DO NOT RELY ON THIS LIST**. Contact the vendor or firmware provider.
+This is a community effort and not an official list. I'm neither endorsed nor affiliated by any of the listed vendors or the Linux Vendor Firmware Service Project. All of the information on this site is presented as is and should not be the basis of any purchase decision. If you need definite information on hardware security features **DO NOT RELY ON THIS LIST**. Contact the vendor or firmware provider.
 
 
 | Vendor  | Model | Firmware version | fwupdmgr version | Comments | HSI level | Link to full report |
