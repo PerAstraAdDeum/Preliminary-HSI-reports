@@ -1,0 +1,45 @@
+Host Security ID: [1mHSI:1 (v2.0.18)[0m
+
+[1mHSI-1[0m
+✔ BIOS firmware updates:         [32m[1mEnabled[0m
+✔ MEI manufacturing mode:        [32m[1mLocked[0m
+✔ csme18 override:               [32m[1mLocked[0m
+✔ csme18 v0:19.0.5.1992:         [32m[1mValid[0m
+✔ Platform debugging:            [32m[1mDisabled[0m
+✔ SPI write:                     [32m[1mDisabled[0m
+✔ SPI lock:                      [32m[1mEnabled[0m
+✔ SPI BIOS region:               [32m[1mLocked[0m
+✔ Supported CPU:                 [32m[1mValid[0m
+✔ TPM empty PCRs:                [32m[1mValid[0m
+✔ TPM v2.0:                      [32m[1mFound[0m
+✔ UEFI bootservice variables:    [32m[1mLocked[0m
+✔ UEFI platform key:             [32m[1mValid[0m
+✔ UEFI secure boot:              [32m[1mEnabled[0m
+
+[1mHSI-2[0m
+✔ Intel BootGuard OTP fuse:      [32m[1mValid[0m
+✔ IOMMU:                         [32m[1mEnabled[0m
+✔ Platform debugging:            [32m[1mLocked[0m
+✔ TPM PCR0 reconstruction:       [32m[1mValid[0m
+✘ Intel BootGuard ACM protected: [31m[1mInvalid[0m
+✘ Intel BootGuard:               [31m[1mDisabled[0m
+
+[1mHSI-3[0m
+✔ CET Platform:                  [32m[1mSupported[0m
+✔ Pre-boot DMA protection:       [32m[1mEnabled[0m
+✘ Suspend-to-idle:               [31m[1mDisabled[0m
+✘ Suspend-to-ram:                [31m[1mEnabled[0m
+
+[1mHSI-4[0m
+✔ SMAP:                          [32m[1mEnabled[0m
+✘ Encrypted RAM:                 [31m[1mDisabled[0m
+
+[1mRuntime Suffix -![0m
+✔ CET OS Support:                [32m[1mSupported[0m
+✔ fwupd plugins:                 [32m[1mUntainted[0m
+✔ Linux kernel lockdown:         [32m[1mEnabled[0m
+✔ Linux swap:                    [32m[1mEncrypted[0m
+✔ Linux kernel:                  [32m[1mUntainted[0m
+✔ UEFI db:                       [32m[1mNot found[0m
+
+
