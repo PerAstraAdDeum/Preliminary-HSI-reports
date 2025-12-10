@@ -1,0 +1,64 @@
+Host Security ID: [1mHSI:1! (v2.0.16)[0m
+
+[1mHSI-1[0m
+✔ SMM locked down:               [32m[1mLocked[0m
+✔ BIOS firmware updates:         [32m[1mEnabled[0m
+✔ Fused platform:                [32m[1mLocked[0m
+✔ Supported CPU:                 [32m[1mValid[0m
+✔ TPM empty PCRs:                [32m[1mValid[0m
+✔ TPM v2.0:                      [32m[1mFound[0m
+✔ UEFI bootservice variables:    [32m[1mLocked[0m
+
+[1mHSI-2[0m
+✔ Platform debugging:            [32m[1mLocked[0m
+✔ TPM PCR0 reconstruction:       [32m[1mValid[0m
+✘ SPI write protection:          [31m[1mDisabled[0m
+✘ IOMMU:                         [31m[1mNot found[0m
+
+[1mHSI-3[0m
+✔ CET Platform:                  [32m[1mSupported[0m
+✘ SPI replay protection:         [31m[1mNot supported[0m
+✘ Pre-boot DMA protection:       [31m[1mInvalid[0m
+✘ Suspend-to-idle:               [31m[1mDisabled[0m
+✘ Suspend-to-ram:                [31m[1mEnabled[0m
+
+[1mHSI-4[0m
+✔ SMAP:                          [32m[1mEnabled[0m
+✘ Processor rollback protection: [31m[1mDisabled[0m
+✘ Encrypted RAM:                 [31m[1mNot supported[0m
+
+[1mRuntime Suffix -![0m
+✔ CET OS Support:                [32m[1mSupported[0m
+✔ fwupd plugins:                 [32m[1mUntainted[0m
+✔ Linux swap:                    [32m[1mEncrypted[0m
+✘ Linux kernel lockdown:         [31m[1mDisabled[0m
+✘ Linux kernel:                  [31m[1mTainted[0m
+✘ UEFI secure boot:              [31m[1mDisabled[0m
+
+This system has HSI runtime issues.
+ » https://fwupd.github.io/hsi.html#hsi-runtime-suffix
+
+Host Security Events
+  2025-10-25 09:59:22:  [32m[1m✔[0m TPM v2.0 changed: Not found → Found
+  2025-10-25 09:59:22:  [32m[1m✔[0m CET Platform changed: Not supported → Supported
+  2025-10-25 09:59:22:  [31m[1m✘[0m Pre-boot DMA protection changed: Disabled → Invalid
+  2025-10-11 08:56:22:  [32m[1m✔[0m BIOS firmware updates changed: Disabled → Enabled
+  2025-10-11 08:56:22:  [31m[1m✘[0m csme v0:11.7.0.1229 changed: Valid → Invalid
+  2025-10-11 08:56:22:  [31m[1m✘[0m SPI lock changed: Enabled → Disabled
+  2025-10-11 08:56:22:  [31m[1m✘[0m Suspend-to-ram changed: Disabled → Enabled
+  2025-10-08 11:04:06:  [31m[1m✘[0m Suspend-to-idle changed: Enabled → Disabled
+  2025-10-04 18:55:49:  [32m[1m✔[0m csme v0:11.8.50.3425 changed: Invalid → Valid
+  2025-10-04 18:55:49:  [32m[1m✔[0m SPI lock changed: Disabled → Enabled
+  2025-10-04 18:55:49:  [31m[1m✘[0m BIOS firmware updates changed: Enabled → Disabled
+  2025-10-04 18:55:49:  [31m[1m✘[0m TPM v2.0 changed: Found → Not found
+  2025-10-04 18:55:49:  [32m[1m✔[0m Suspend-to-idle changed: Disabled → Enabled
+  2025-10-04 16:24:40:  [31m[1m✘[0m csme v0:11.6.0.1126 changed: Valid → Invalid
+  2025-10-04 16:17:28:  [32m[1m✔[0m TPM v2.0 changed: Not found → Found
+  2025-09-30 05:28:05:  [32m[1m✔[0m BIOS firmware updates changed: Disabled → Enabled
+  2025-09-30 05:28:05:  [31m[1m✘[0m SPI lock changed: Enabled → Disabled
+  2025-09-30 05:28:05:  [31m[1m✘[0m Suspend-to-idle changed: Enabled → Disabled
+  2025-09-29 06:37:51:  [32m[1m✔[0m Suspend-to-idle changed: Disabled → Enabled
+  2025-09-28 07:19:09:  [31m[1m✘[0m BIOS firmware updates changed: Enabled → Disabled
+  2025-09-28 07:19:09:  [31m[1m✘[0m SPI BIOS region changed: Locked → Unlocked
+  2025-09-28 07:19:09:  [32m[1m✔[0m Suspend-to-ram changed: Enabled → Disabled
+
