@@ -1,0 +1,45 @@
+Host Security ID: HSI:0! (v2.0.18)
+
+HSI-1
+✔ BIOS firmware updates:         Enabled
+✔ csme manufacturing mode:       Locked
+✔ csme override:                 Locked
+✔ Platform debugging:            Disabled
+✔ SPI write:                     Disabled
+✔ SPI lock:                      Enabled
+✔ SPI BIOS Descriptor:           Locked
+✔ SPI BIOS region:               Locked
+✔ Supported CPU:                 Valid
+✔ TPM empty PCRs:                Valid
+✔ TPM v2.0:                      Found
+✔ UEFI bootservice variables:    Locked
+✘ csme v0:15.0.21.1549:          Invalid
+
+HSI-2
+✔ Intel BootGuard:               Enabled
+✔ Intel BootGuard OTP fuse:      Valid
+✔ Intel GDS mitigation:          Enabled
+✔ Platform debugging:            Locked
+✔ TPM PCR0 reconstruction:       Valid
+✘ Intel BootGuard ACM protected: Invalid
+✘ Intel BootGuard verified boot: Invalid
+✘ IOMMU:                         Not found
+
+HSI-3
+✘ CET Platform:                  Not supported
+✘ Intel BootGuard error policy:  Invalid
+✘ Pre-boot DMA protection:       Disabled
+✘ Suspend-to-idle:               Disabled
+✘ Suspend-to-ram:                Enabled
+
+HSI-4
+✔ SMAP:                          Enabled
+✘ Encrypted RAM:                 Not supported
+
+Runtime Suffix -!
+✔ fwupd plugins:                 Untainted
+✔ Linux swap:                    Encrypted
+✔ Linux kernel:                  Untainted
+✘ Linux kernel lockdown:         Disabled
+✘ UEFI secure boot:              Disabled
+
