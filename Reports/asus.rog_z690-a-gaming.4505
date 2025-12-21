@@ -1,0 +1,70 @@
+Host-Sicherheitskennung: [1mHSI:1 (v2.0.18)[0m
+
+[1mHSI-1[0m
+✔ BIOS Firmware-Aktualisierungen:[32m[1mAktiviert[0m
+✔ csme Herstellungsmodus:        [32m[1mGesperrt[0m
+✔ csme überschreiben:            [32m[1mGesperrt[0m
+✔ csme v0:16.1.38.2676:          [32m[1mGültig[0m
+✔ Plattform-Defektlokalisierung: [32m[1mDeaktiviert[0m
+✔ SPI schreiben:                 [32m[1mDeaktiviert[0m
+✔ SPI sperren:                   [32m[1mAktiviert[0m
+✔ SPI BIOS-Region:               [32m[1mGesperrt[0m
+✔ Unterstützte CPU:              [32m[1mGültig[0m
+✔ TPM leere PCRs:                [32m[1mGültig[0m
+✔ TPM v2.0:                      [32m[1mGefunden[0m
+✔ UEFI-Bootdienst-Variablen:     [32m[1mGesperrt[0m
+✔ UEFI-Plattformschlüssel:       [32m[1mGültig[0m
+✔ Sicherer UEFI-Boot:            [32m[1mAktiviert[0m
+
+[1mHSI-2[0m
+✔ Intel BootGuard:               [32m[1mAktiviert[0m
+✔ Einmalig programmierbare Intel BootGuard-Sicherung:[32m[1mGültig[0m
+✔ IOMMU:                         [32m[1mAktiviert[0m
+✔ Plattform-Defektlokalisierung: [32m[1mGesperrt[0m
+✔ TPM-PCR0-Rekonstruktion:       [32m[1mGültig[0m
+✘ Intel BootGuard ACM-geschützt: [31m[1mUngültig[0m
+✘ Verifizierter Start mit Intel BootGuard:[31m[1mUngültig[0m
+
+[1mHSI-3[0m
+✔ CET-Plattform:                 [32m[1mUnterstützt[0m
+✔ DMA-Schutz vor dem Booten:     [32m[1mAktiviert[0m
+✘ Intel BootGuard-Fehlerrichtlinie:[31m[1mUngültig[0m
+✘ Im Leerlauf anhalten:          [31m[1mDeaktiviert[0m
+✘ Im RAM anhalten:               [31m[1mAktiviert[0m
+
+[1mHSI-4[0m
+✔ Verschlüsselter RAM:           [32m[1mAktiviert[0m
+✔ SMAP:                          [32m[1mAktiviert[0m
+
+[1mLaufzeit-Suffix -![0m
+✔ CET-BS-Unterstützung:          [32m[1mUnterstützt[0m
+✔ fwupd-Plugins:                 [32m[1mUnverdorben[0m
+✔ Linux-Kernel-Sperrung:         [32m[1mAktiviert[0m
+✔ Linux-Auslagerung:             [32m[1mVerschlüsselt[0m
+✔ Linux-Kernel:                  [32m[1mUnverdorben[0m
+✔ UEFI-DB:                       [32m[1mNicht gefunden[0m
+
+Host-Sicherheitsereignisse
+  2025-12-20 20:11:59:  [32m[1m✔[0m Verschlüsselter RAM geändert: Deaktiviert → Aktiviert
+  2025-12-06 19:52:59:  [31m[1m✘[0m Verschlüsselter RAM geändert: Aktiviert → Deaktiviert
+  2025-09-13 14:14:47:  [32m[1m✔[0m UEFI-DB geändert: Gültig → Nicht gefunden
+  2025-09-06 15:30:57:  [32m[1m✔[0m DMA-Schutz vor dem Booten ist aktiviert
+  2025-09-06 15:30:57:  [32m[1m✔[0m Verschlüsselter RAM geändert: Deaktiviert → Aktiviert
+  2025-09-06 15:25:12:  [32m[1m✔[0m IOMMU-Geräteschutz aktiviert
+  2025-09-05 14:42:20:  [31m[1m✘[0m IOMMU-Geräteschutz deaktiviert
+  2025-09-02 15:36:41:  [32m[1m✔[0m Der UEFI-Zertifikatspeicher ist jetzt auf dem neuesten Stand
+  2025-09-02 15:36:41:  [32m[1m✔[0m SPI sperren geändert: Deaktiviert → Aktiviert
+  2025-09-02 15:36:41:  [32m[1m✔[0m SPI BIOS-Region geändert: Entsperrt → Gesperrt
+  2025-09-02 15:36:41:  [32m[1m✔[0m TPM v2.0 geändert: Nicht gefunden → Gefunden
+  2025-09-02 15:36:41:  [32m[1m✔[0m Intel BootGuard geändert: Nicht unterstützt → Aktiviert
+  2025-09-02 15:36:41:  [32m[1m✔[0m CET-Plattform geändert: Nicht unterstützt → Unterstützt
+  2025-09-02 15:36:41:  [31m[1m✘[0m Verschlüsselter RAM geändert: Nicht unterstützt → Deaktiviert
+  2025-08-23 08:51:51:  [31m[1m✘[0m UEFI-DB geändert: Gültig → Ungültig
+  2025-08-23 08:51:51:  [31m[1m✘[0m SPI sperren geändert: Aktiviert → Deaktiviert
+  2025-08-23 08:51:51:  [31m[1m✘[0m SPI BIOS-Region geändert: Gesperrt → Entsperrt
+  2025-08-23 08:51:51:  [31m[1m✘[0m TPM v2.0 geändert: Gefunden → Nicht gefunden
+  2025-08-23 08:51:51:  [31m[1m✘[0m Intel BootGuard geändert: Aktiviert → Nicht unterstützt
+  2025-08-23 08:51:51:  [31m[1m✘[0m CET-Plattform geändert: Unterstützt → Nicht unterstützt
+  2025-08-23 08:51:51:  [31m[1m✘[0m Verschlüsselter RAM geändert: Deaktiviert → Nicht unterstützt
+  2025-08-22 22:10:24:  [32m[1m✔[0m Secure Boot aktiviert
+
